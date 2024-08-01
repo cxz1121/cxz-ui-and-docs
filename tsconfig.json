@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "strict": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false, // 不允许隐式 any 类型
+    "noUnusedParameters": true, // 未使用的参数
+    "noFallthroughCasesInSwitch": true, // switch 语句必须覆盖所有情况
+    "allowJs": true,
+    "lib": ["ESNext", "DOM"],
+    "types": ["vite/client", "element-plus/global"],
+    "baseUrl": ".",
+    "paths": {
+      "@cxz-ui/*": ["./packages/cxz-ui/src/*"]
+    }
+  },
+  "include": [
+    "packages/**/*.ts",
+    "packages/**/*.d.ts",
+    "packages/**/*.d.tsx",
+    "packages/**/*.vue",
+    "packages/**/*.tsx",
+  ],
+  "exclude": ["node_modules", "dist", "**/*.js", "**/*.test.ts", "**/*.test.tsx"]
+}

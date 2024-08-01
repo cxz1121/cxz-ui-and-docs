@@ -1,0 +1,41 @@
+{
+  "name": "@cxzvue/cxz-ui",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "lib/index.js",
+  "module": "",
+  "files": [
+    "es/",
+    "lib/"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "build:es": "rollup --config ./build/es.ts --configPlugin @rollup/plugin-typescript",
+    "build:lib": "vite build --emptyOutDir --config ./build/lib.ts",
+    "build:docs": "vite build --emptyOutDir --mode docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-plus": "^2.7.8",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^5.1.0",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/postcss-url": "^10.0.4",
+    "del": "^7.1.0",
+    "postcss-px-to-viewport-8-plugin": "^1.2.5",
+    "postcss-url": "^10.1.3",
+    "rollup": "^4.19.2",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-vue": "^6.0.0"
+  }
+}

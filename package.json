@@ -1,0 +1,28 @@
+{
+  "name": "cxzui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C packages/cxz-ui dev",
+    "dev:docs": "pnpm -C packages/docs dev",
+    "build": "pnpm -C packages/cxz-ui build",
+    "build:es": "pnpm -C packages/cxz-ui build:es",
+    "build:lib": "pnpm -C packages/cxz-ui build:lib",
+    "build:docs": "pnpm -C packages/cxz-ui build:docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.8",
+    "vite": "^5.3.5"
+  },
+  "dependencies": {
+    "@types/node": "^22.0.0",
+    "@vitejs/plugin-vue": "^5.1.1",
+    "element-plus": "^2.7.8",
+    "unplugin-element-plus": "^0.8.0",
+    "vue": "^3.4.34"
+  }
+}
