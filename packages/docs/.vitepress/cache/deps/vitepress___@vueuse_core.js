@@ -33,9 +33,9 @@ import {
   version,
   watch,
   watchEffect
-} from "./chunk-Z4PSEJ2A.js";
+} from "./chunk-3JONCNLX.js";
 
-// ../../node_modules/.pnpm/vitepress@1.3.1_@algolia+client-search@4.24.0_@types+node@22.0.0_less@4.2.0_sass@1.77.8_search-insights@2.15.0/node_modules/vitepress/lib/vue-demi.mjs
+// ../../node_modules/.pnpm/vitepress@1.3.1_@algolia+client-search@4.24.0_@types+node@22.0.0_sass@1.77.8_search-insights@2.15.0/node_modules/vitepress/lib/vue-demi.mjs
 var isVue2 = false;
 var isVue3 = true;
 function set(target, key, val) {

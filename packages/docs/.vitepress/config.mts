@@ -7,6 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: '指南', link: '/zh-CN/guide/cxz-ui-install', activeMatch: '/zh-CN/guide/' },
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
@@ -23,6 +24,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+    footer: {
+      message: 'CXZ-UI',
+      copyright: 'Copyright © Hyun Chan'
+    }
   }
 })

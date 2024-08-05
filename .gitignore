@@ -1,5 +1,6 @@
 dist
 es
 lib
+cache
 node_modules
 .eslintcache
