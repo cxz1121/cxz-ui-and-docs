@@ -17,6 +17,15 @@ const sidebar: DefaultTheme.Sidebar = {
       ]
     }
   ],
+  '/zh-CN/components/cxz-ui': [
+    {
+      text: '组件',
+      items: [
+        { text: 'Button', link: '/zh-CN/components/cxz-ui/cxz-button' },
+        { text: 'Table', link: '/zh-CN/components/cxz-ui/cxz-table' }
+      ]
+    }
+  ],
   '/zh-CN/examples/': [
     {
       text: 'Examples',
